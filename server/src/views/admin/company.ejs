@@ -1,0 +1,17 @@
+<% include('../layout/header.ejs')%>
+
+<h1>Companies</h1>
+<form action ="" method="post" enctype="multipart/form-data">
+<br><br>
+<input type="text" name="name" placeholder="Enter name" required>
+<br><br>
+<input type="email" name="email" placeholder="Enter email" required>
+<br><br>
+<input type="file" name="image"  required>
+<p>Logo should be in(minimum 100×100)</p>
+<input type="website" name="website" placeholder="Site link" required>
+<br><br>
+<button type="submit" value="Submit">Submit</button>
+</form>
+
+<% include('../layout/footer.ejs')%>
